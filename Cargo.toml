@@ -61,6 +61,7 @@ members = [
   "crates/webidl",
   "crates/webidl-tests",
   "examples/add",
+  "examples/bin-crate-without-a-bundler",
   "examples/canvas",
   "examples/char",
   "examples/closures",
