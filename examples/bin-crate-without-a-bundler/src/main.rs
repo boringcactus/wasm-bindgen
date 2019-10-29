@@ -24,9 +24,3 @@ fn display(text: &str) {
 fn main() {
     display("Hello from Rust!");
 }
-
-#[cfg(target_arch = "wasm32")]
-#[wasm_bindgen(start)]
-pub fn wasm_main() {
-    main();
-}
